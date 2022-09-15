@@ -1,0 +1,5 @@
+Implement a method of handling localized entities
+Establish User, Customer, Administrator entities & relations 
+implement basic auth strategy using JWT
+Create RolesGuard
+Return user data from login endpoint, add `me` endpoint.
