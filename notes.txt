@@ -1,5 +1,15 @@
+STAGE 1
+
 Implement a method of handling localized entities
 Establish User, Customer, Administrator entities & relations 
 implement basic auth strategy using JWT
 Create RolesGuard
 Return user data from login endpoint, add `me` endpoint.
+
+STAGE 2
+
+Implement basic product options
+Generalise the translation helper
+Implement createProduct gql mutation
+Implement update for Product entity
+Add DB-level uniqueness constraints to existing entities
