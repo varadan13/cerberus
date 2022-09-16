@@ -13,3 +13,7 @@ Generalise the translation helper
 Implement createProduct gql mutation
 Implement update for Product entity
 Add DB-level uniqueness constraints to existing entities
+
+STAGE 2.1
+
+understand locale-types.ts and translate-entity.ts
