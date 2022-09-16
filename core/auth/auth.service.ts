@@ -1,5 +1,4 @@
-
-export class AuthService {
+class AuthService {
     constructor(passwordService, connection ) {}
 
     async createToken(identifier , password) {
@@ -24,7 +23,7 @@ export class AuthService {
         return { user, token };
     }
 
-    async validateUser(payload): Promise<any> {
+    async validateUser(payload) {
         return await this.connection.getRepository(User).findOne({
             where: {
                 identifier: payload.identifier,
