@@ -1,0 +1,5 @@
+type ProductOption {
+  id: Int
+  code: String
+  name: String
+}
