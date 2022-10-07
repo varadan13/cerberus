@@ -1,9 +1,0 @@
-type Administrator {
-  id: Int
-  firstName: String
-  lastName: String
-  emailAddress: String
-  user: User
-  createdAt: String
-  updatedAt: String
-}

@@ -1,5 +1,0 @@
-type ProductOptionGroup {
-  id: Int
-  code: String
-  name: String
-}
